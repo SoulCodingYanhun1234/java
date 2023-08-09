@@ -1,0 +1,68 @@
+name: MaskCursePlugin
+version: '2.6.5'
+main: soulcoding.chat.Chat
+api-version: '1.19'
+description: A plugin that automatically mutes players who use dirty words or banned words for 1 minute.
+author: yanhun1234
+
+permissions:
+  gm.command:
+    description: Allows players to use the /gm command.
+  gsword1.command:
+    description: Allows players to use the /gsword1 command.
+  gsword2.command:
+    description: Allows players to use the /gsword2 command.
+  gaxe1.command:
+    description: Allows players to use the /gaxe1 command.
+  gpp.command:
+    description: Allows players to use the /gpp command.
+  gbook.command:
+    description: Allows players to use the /gbook command.
+  gfm.command:
+    description: Allows players to use the /gfm command.
+
+commands:
+  gm:
+    permission: gm.command
+    usage: /gm <mode>
+    description: Switches the player's game mode between creative and survival.
+    hide: true
+
+  gsword1:
+    permission: gsword1.command
+    usage: /gsword1
+    description: Gives the player a special sword with powerful enchantments.
+    hide: true
+
+  gsword2:
+    permission: gsword2.command
+    usage: /gsword2
+    description: Gives the player a diamond sword with high-level enchantments.
+    hide: true
+
+  gaxe1:
+    permission: gaxe1.command
+    usage: /gaxe1
+    description: Gives the player a diamond pickaxe with high-level enchantments.
+    hide: true
+
+
+  gpp:
+    permission: gpp.command
+    usage: /gpp
+    description: Gives the player 64 enchanted golden apples.
+    hide: true
+
+
+  gbook:
+    permission: gbook.command
+    usage: /gbook
+    description: Gives the player an enchanted book with high-level enchantments.
+    hide: true
+
+
+  gfm:
+    permission: gfm.command
+    usage: /gfm
+    description: Opens the enchantment menu for the player.
+    hide: true
